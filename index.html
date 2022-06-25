@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name=" viewport " content="width=devoce-width, initial-scale=1.0">
+    <title> bikes</title>
+    <link rel="stylesheet"  href="style.css">
+</head>
+    <body>
+<div class="cotainer" id="bike">
+    <nav>
+        <img src="logo.png" class="logo">
+        <a herf="#" class="btn"> Test Drive</a>
+
+    </nav>
+    <div class="content">
+        <h2> The BMW</h2>
+       
+     <p>Your competitive spirit drives you. Your passion dominates and challenges you. The search for more defines every millisecond: pure motorsport. High performance, high-tech materials, the highest-quality workmanship and exclusivity down to the last detail. </p>
+    <h3> Choose your color</h3>
+    <div class="color-select">
+        <div id="red"></div>
+        <div id="blue"></div>
+        <div id="black"></div>
+    </div>
+    </div>
+</div>
+<script>
+    let redBtn =document.getElementById("red");
+    let blueBtn =document.getElementById("blue");
+    let blackBtn =document.getElementById("black");
+   let bike= document.getElementById("bike");
+    redBtn .onclick =function(){
+        bike.style.background ="url(BMW1.png)";
+    }
+    blueBtn .onclick =function(){
+        bike.style.background ="url(BMW2.png)";
+    }
+    blackBtn .onclick =function(){
+        bike.style.background ="url(BMW3.png)";
+    }
+</script>
+    </body>
+    </html>
